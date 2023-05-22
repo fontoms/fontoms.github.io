@@ -106,6 +106,7 @@
 }
 .navbar-interactive-image {
   height: 2rem;
+  border-radius: var(--dl-radius-radius-round);
 }
 .navbar-interactive-menu-close {
   display: flex;
@@ -122,31 +123,22 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.navbar-interactive-text4 {
+.navbar-interactive-navlink2 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.navbar-interactive-text5 {
+.navbar-interactive-navlink3 {
   margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-interactive-text6 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-interactive-text7 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-interactive-text8 {
-  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .navbar-interactive-container2 {
   flex: 0 0 auto;
   width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
-}
-.navbar-interactive-login1 {
-  margin-right: var(--dl-space-space-twounits);
 }
 .navbar-interactive-icon-group {
   display: flex;
@@ -171,6 +163,16 @@
 .navbar-interactive-root-class-name1 {
   width: 100%;
 }
+@media(max-width: 1200px) {
+  .navbar-interactive-image {
+    border-radius: var(--dl-radius-radius-round);
+  }
+}
+@media(max-width: 991px) {
+  .navbar-interactive-image {
+    border-radius: var(--dl-radius-radius-round);
+  }
+}
 @media(max-width: 767px) {
   .navbar-interactive-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -194,6 +196,9 @@
   .navbar-interactive-burger-menu {
     display: flex;
   }
+  .navbar-interactive-image {
+    border-radius: var(--dl-radius-radius-round);
+  }
 }
 @media(max-width: 479px) {
   .navbar-interactive-navbar-interactive {
@@ -201,6 +206,9 @@
   }
   .navbar-interactive-mobile-menu {
     padding: 16px;
+  }
+  .navbar-interactive-image {
+    border-radius: var(--dl-radius-radius-round);
   }
 }
 
@@ -269,6 +277,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .footer-text {
+    width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
@@ -288,6 +297,7 @@
   flex: 1;
   display: flex;
   padding: var(--dl-space-space-threeunits);
+  position: relative;
   flex-direction: column;
   background-size: auto;
   background-image: url("public/playground_assets/discordnnectbanner-1500w.gif");
@@ -300,7 +310,12 @@
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   border-radius: var(--dl-radius-radius-radius8);
   margin-bottom: var(--dl-space-space-twounits);
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
+}
+.discordnnect-separator {
+  width: 100px;
+  height: 2px;
+  background-color: var(--dl-color-gray-500);
 }
 .discordnnect-link {
   color: #ffffff;
@@ -310,13 +325,16 @@
   text-decoration: none;
   background-color: rgba(114, 137, 218, 0.68);
 }
+.discordnnect-text05 {
+  font-size: 30px;
+}
 .discordnnect-text07 {
   color: var(--dl-color-gray-black);
   font-style: normal;
   font-weight: 700;
   text-transform: capitalize;
 }
-.discordnnect-separator {
+.discordnnect-separator1 {
   width: 100px;
   height: 2px;
   background-color: var(--dl-color-gray-500);
@@ -356,17 +374,24 @@
   width: auto;
   height: 2rem;
   display: flex;
+  position: relative;
+  align-self: stretch;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .discordnnect-image {
   width: 35px;
-  height: 100%;
   object-fit: cover;
 }
 .discordnnect-text09 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-text10 {
   color: var(--dl-color-gray-700);
@@ -385,17 +410,24 @@
   width: auto;
   height: 2rem;
   display: flex;
+  position: relative;
+  align-self: stretch;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .discordnnect-image1 {
   width: 35px;
-  height: 100%;
   object-fit: cover;
 }
 .discordnnect-text11 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-text12 {
   color: var(--dl-color-gray-700);
@@ -414,17 +446,24 @@
   width: auto;
   height: 2rem;
   display: flex;
+  position: relative;
+  align-self: stretch;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .discordnnect-image2 {
   width: 35px;
-  height: 100%;
   object-fit: cover;
 }
 .discordnnect-text13 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-text14 {
   color: var(--dl-color-gray-700);
@@ -443,17 +482,24 @@
   width: auto;
   height: 2rem;
   display: flex;
+  position: relative;
+  align-self: stretch;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .discordnnect-image3 {
   width: 35px;
-  height: 100%;
   object-fit: cover;
 }
 .discordnnect-text15 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-text16 {
   color: var(--dl-color-gray-700);
@@ -474,14 +520,21 @@
   .discordnnect-features {
     align-items: center;
   }
+  .discordnnect-text {
+    align-self: stretch;
+  }
   .discordnnect-container1 {
     flex-direction: column;
   }
+  .discordnnect-container2 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
   .discordnnect-image4 {
-    width: 300px;
-    height: 300px;
-    margin-top: var(--dl-space-space-twounits);
-    margin-left: 0px;
+    flex: 0 0 auto;
+    width: var(--dl-size-size-xlarge);
+    margin-bottom: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 767px) {
@@ -490,10 +543,14 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .discordnnect-text {
+    font-size: 2em;
     text-align: center;
   }
   .discordnnect-container1 {
     flex-direction: column;
+  }
+  .discordnnect-image4 {
+    width: var(--dl-size-size-large);
   }
 }
 @media(max-width: 479px) {
@@ -503,7 +560,19 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .discordnnect-text {
+    padding: var(--dl-space-space-halfunit);
+    font-size: 1.5em;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    background-color: rgb(255, 255, 255);
+  }
+  .discordnnect-text05 {
+    font-size: 20px;
+  }
   .discordnnect-container2 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
     grid-template-columns: 1fr;
   }
   .discordnnect-text09 {

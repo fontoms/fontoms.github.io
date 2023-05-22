@@ -63,6 +63,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .footer-text {
+    width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
