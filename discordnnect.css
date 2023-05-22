@@ -1,89 +1,85 @@
-.discordnnect-container {
+.navbar-interactive-container {
   width: 100%;
   display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
+  position: relative;
 }
-.discordnnect-navbar-interactive {
+.navbar-interactive-navbar-interactive {
+  flex: 1;
   width: 100%;
-  height: 92px;
   display: flex;
   position: relative;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
-.discordnnect-navlink {
+.navbar-interactive-navlink {
   display: contents;
 }
-.discordnnect-logo {
+.navbar-interactive-logo {
   width: 62px;
   height: 64px;
   border-radius: var(--dl-radius-radius-round);
   text-decoration: none;
 }
-.discordnnect-desktop-menu {
+.navbar-interactive-desktop-menu {
   display: flex;
 }
-.discordnnect-nav {
+.navbar-interactive-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.discordnnect-navlink1 {
+.navbar-interactive-navlink1 {
   font-size: 20px;
   text-decoration: none;
 }
-.discordnnect-link {
+.navbar-interactive-link {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.discordnnect-link1 {
+.navbar-interactive-link1 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.discordnnect-link2 {
+.navbar-interactive-link2 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.discordnnect-btn-group {
+.navbar-interactive-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.discordnnect-login {
+.navbar-interactive-login {
   border-color: #7289da;
   border-width: 1px;
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.discordnnect-register {
+.navbar-interactive-register {
   color: #ffffff;
   border-width: 1px;
   text-decoration: none;
   background-color: #7289da;
 }
-.discordnnect-burger-menu {
+.navbar-interactive-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.discordnnect-icon {
+.navbar-interactive-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.discordnnect-mobile-menu {
+.navbar-interactive-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -96,52 +92,52 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.discordnnect-nav1 {
+.navbar-interactive-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.discordnnect-container1 {
+.navbar-interactive-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.discordnnect-image {
+.navbar-interactive-image {
   height: 2rem;
 }
-.discordnnect-menu-close {
+.navbar-interactive-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.discordnnect-icon02 {
+.navbar-interactive-icon02 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.discordnnect-nav2 {
+.navbar-interactive-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.discordnnect-text04 {
+.navbar-interactive-text4 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.discordnnect-text05 {
+.navbar-interactive-text5 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.discordnnect-text06 {
+.navbar-interactive-text6 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.discordnnect-text07 {
+.navbar-interactive-text7 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.discordnnect-text08 {
+.navbar-interactive-text8 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.discordnnect-container2 {
+.navbar-interactive-container2 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -149,46 +145,183 @@
   align-items: center;
   flex-direction: row;
 }
-.discordnnect-login1 {
+.navbar-interactive-login1 {
   margin-right: var(--dl-space-space-twounits);
 }
-.discordnnect-icon-group {
+.navbar-interactive-icon-group {
   display: flex;
 }
-.discordnnect-icon04 {
+.navbar-interactive-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.discordnnect-icon06 {
+.navbar-interactive-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.discordnnect-icon08 {
+.navbar-interactive-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.discordnnect-features {
+.navbar-interactive-root-class-name {
+  width: 100%;
+}
+.navbar-interactive-root-class-name1 {
+  width: 100%;
+}
+@media(max-width: 767px) {
+  .navbar-interactive-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .navbar-interactive-desktop-menu {
+    display: none;
+  }
+  .navbar-interactive-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-link1 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-link2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-btn-group {
+    display: none;
+  }
+  .navbar-interactive-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-interactive-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-mobile-menu {
+    padding: 16px;
+  }
+}
+
+.footer-footer {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-threeunits);
-  max-width: var(--dl-size-size-maxwidth);
-  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
 }
-.discordnnect-text09 {
+.footer-navlink {
+  display: contents;
+}
+.footer-image {
+  height: 2rem;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  text-decoration: none;
+}
+.footer-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-navlink1 {
+  display: contents;
+}
+.footer-image1 {
+  width: 40px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-link {
+  display: contents;
+}
+.footer-image2 {
+  width: 40px;
+  height: auto;
+  object-fit: cover;
+  text-decoration: none;
+}
+
+@media(max-width: 767px) {
+  .footer-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .footer-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .footer-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .footer-image {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.discordnnect-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.discordnnect-features {
+  flex: 1;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  background-size: auto;
+  background-image: url("public/playground_assets/standard%20%5B8%5D-1500w.gif");
+  background-repeat: repeat;
+  background-position: center;
+}
+.discordnnect-text {
   padding: var(--dl-space-space-oneandhalfunits);
   font-size: 3rem;
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   border-radius: var(--dl-radius-radius-radius8);
   margin-bottom: var(--dl-space-space-twounits);
+  background-color: #ffffff;
+}
+.discordnnect-link {
+  color: #ffffff;
+  align-self: stretch;
+  text-align: center;
+  border-color: #7289da;
+  text-decoration: none;
+  background-color: rgba(114, 137, 218, 0.68);
+}
+.discordnnect-text07 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 .discordnnect-separator {
   width: 100px;
   height: 2px;
   background-color: var(--dl-color-gray-500);
 }
-.discordnnect-container3 {
+.discordnnect-container1 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -198,8 +331,9 @@
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
   justify-content: space-between;
+  background-color: #ffffff;
 }
-.discordnnect-container4 {
+.discordnnect-container2 {
   display: grid;
   margin-left: var(--dl-space-space-twounits);
   grid-template-columns: 1fr 1fr;
@@ -217,7 +351,36 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
-.discordnnect-container5 {
+.discordnnect-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discordnnect-image {
+  width: 35px;
+  height: 100%;
+  object-fit: cover;
+}
+.discordnnect-text09 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.discordnnect-text10 {
+  color: var(--dl-color-gray-700);
+}
+.discordnnect-feature-card1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.discordnnect-container4 {
   flex: 0 0 auto;
   width: auto;
   height: 2rem;
@@ -230,14 +393,43 @@
   height: 100%;
   object-fit: cover;
 }
-.discordnnect-text14 {
+.discordnnect-text11 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.discordnnect-text15 {
+.discordnnect-text12 {
   color: var(--dl-color-gray-700);
 }
-.discordnnect-feature-card1 {
+.discordnnect-feature-card2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.discordnnect-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discordnnect-image2 {
+  width: 35px;
+  height: 100%;
+  object-fit: cover;
+}
+.discordnnect-text13 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.discordnnect-text14 {
+  color: var(--dl-color-gray-700);
+}
+.discordnnect-feature-card3 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -254,77 +446,19 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.discordnnect-image2 {
-  width: 35px;
-  height: 100%;
-  object-fit: cover;
-}
-.discordnnect-text16 {
-  font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.discordnnect-text17 {
-  color: var(--dl-color-gray-700);
-}
-.discordnnect-feature-card2 {
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.discordnnect-container7 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 2rem;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .discordnnect-image3 {
   width: 35px;
   height: 100%;
   object-fit: cover;
 }
-.discordnnect-text18 {
+.discordnnect-text15 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.discordnnect-text19 {
+.discordnnect-text16 {
   color: var(--dl-color-gray-700);
-}
-.discordnnect-feature-card3 {
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.discordnnect-container8 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 2rem;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 .discordnnect-image4 {
-  width: 35px;
-  height: 100%;
-  object-fit: cover;
-}
-.discordnnect-text20 {
-  font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.discordnnect-text21 {
-  color: var(--dl-color-gray-700);
-}
-.discordnnect-image5 {
   flex: 1;
   width: auto;
   height: auto;
@@ -336,58 +470,14 @@
   margin-bottom: var(--dl-space-space-twounits);
   object-position: left;
 }
-.discordnnect-footer {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: space-between;
-}
-.discordnnect-navlink2 {
-  display: contents;
-}
-.discordnnect-image6 {
-  height: 2rem;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  text-decoration: none;
-}
-.discordnnect-icon-group1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.discordnnect-navlink3 {
-  display: contents;
-}
-.discordnnect-image7 {
-  width: 40px;
-  object-fit: cover;
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.discordnnect-link3 {
-  display: contents;
-}
-.discordnnect-image8 {
-  width: 40px;
-  height: auto;
-  object-fit: cover;
-  text-decoration: none;
-}
 @media(max-width: 991px) {
   .discordnnect-features {
     align-items: center;
   }
-  .discordnnect-container3 {
+  .discordnnect-container1 {
     flex-direction: column;
   }
-  .discordnnect-image5 {
+  .discordnnect-image4 {
     width: 300px;
     height: 300px;
     margin-top: var(--dl-space-space-twounits);
@@ -395,94 +485,45 @@
   }
 }
 @media(max-width: 767px) {
-  .discordnnect-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .discordnnect-desktop-menu {
-    display: none;
-  }
-  .discordnnect-link {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .discordnnect-link1 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .discordnnect-link2 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .discordnnect-btn-group {
-    display: none;
-  }
-  .discordnnect-burger-menu {
-    display: flex;
-  }
   .discordnnect-features {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .discordnnect-text09 {
+  .discordnnect-text {
     text-align: center;
   }
-  .discordnnect-container3 {
+  .discordnnect-container1 {
     flex-direction: column;
-  }
-  .discordnnect-footer {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .discordnnect-text22 {
-    text-align: center;
-    margin-left: var(--dl-space-space-unit);
-    margin-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .discordnnect-navbar-interactive {
-    padding: var(--dl-space-space-unit);
-  }
-  .discordnnect-mobile-menu {
-    padding: 16px;
-  }
   .discordnnect-features {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .discordnnect-container4 {
+  .discordnnect-container2 {
     grid-template-columns: 1fr;
   }
-  .discordnnect-text14 {
+  .discordnnect-text09 {
     font-style: normal;
     font-weight: 600;
   }
-  .discordnnect-text16 {
+  .discordnnect-text11 {
     font-style: normal;
     font-weight: 600;
   }
-  .discordnnect-text18 {
+  .discordnnect-text13 {
     font-style: normal;
     font-weight: 600;
   }
-  .discordnnect-text20 {
+  .discordnnect-text15 {
     font-style: normal;
     font-weight: 600;
   }
-  .discordnnect-image5 {
+  .discordnnect-image4 {
     width: 250px;
     height: 250px;
-  }
-  .discordnnect-footer {
-    padding: var(--dl-space-space-unit);
-    flex-direction: column;
-  }
-  .discordnnect-image6 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .discordnnect-text22 {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-unit);
   }
 }
