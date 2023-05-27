@@ -1,3 +1,28 @@
+.separator-container {
+  display: flex;
+  position: relative;
+}
+.separator-separator {
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 767px) {
+  .separator-separator {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .separator-separator {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
 .footer-footer {
   width: 100%;
   display: flex;
@@ -12,13 +37,22 @@
 .footer-navlink {
   display: contents;
 }
-.footer-image {
+.footer-profil {
   height: 2rem;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-round);
   text-decoration: none;
 }
-.footer-icon-group {
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-status {
+  align-self: center;
+  text-decoration: none;
+}
+.footer-raccourci-menu {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -27,7 +61,7 @@
 .footer-navlink1 {
   display: contents;
 }
-.footer-image1 {
+.footer-home {
   width: 40px;
   object-fit: cover;
   margin-right: var(--dl-space-space-unit);
@@ -36,7 +70,7 @@
 .footer-link {
   display: contents;
 }
-.footer-image2 {
+.footer-github {
   width: 40px;
   height: auto;
   object-fit: cover;
@@ -49,7 +83,12 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .footer-text {
+  .footer-copyright {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-status {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -60,10 +99,16 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .footer-image {
+  .footer-profil {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .footer-text {
+  .footer-copyright {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-status {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
