@@ -37,20 +37,17 @@
   font-size: 20px;
   text-decoration: none;
 }
-.menu-navlink2 {
+.menu-text2 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
 }
-.menu-navlink3 {
+.menu-text5 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
 }
-.menu-navlink4 {
+.menu-text6 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
 }
 .menu-btn-group {
   display: flex;
@@ -62,7 +59,6 @@
   border-color: #7289da;
   border-width: 1px;
   margin-right: var(--dl-space-space-twounits);
-  text-decoration: none;
 }
 .menu-register {
   color: #ffffff;
@@ -123,11 +119,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.menu-navlink5 {
+.menu-navlink2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.menu-navlink6 {
+.menu-navlink3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -182,13 +178,13 @@
   .menu-desktop-menu {
     display: none;
   }
-  .menu-navlink2 {
+  .menu-text2 {
     margin-left: var(--dl-space-space-unit);
   }
-  .menu-navlink3 {
+  .menu-text5 {
     margin-left: var(--dl-space-space-unit);
   }
-  .menu-navlink4 {
+  .menu-text6 {
     margin-left: var(--dl-space-space-unit);
   }
   .menu-btn-group {
@@ -442,6 +438,8 @@
 }
 .discordnnect-text10 {
   color: var(--dl-color-gray-700);
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-feature-card1 {
   width: 100%;
@@ -478,6 +476,8 @@
 }
 .discordnnect-text12 {
   color: var(--dl-color-gray-700);
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-feature-card2 {
   width: 100%;
@@ -514,6 +514,8 @@
 }
 .discordnnect-text14 {
   color: var(--dl-color-gray-700);
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-feature-card3 {
   width: 100%;
@@ -550,6 +552,8 @@
 }
 .discordnnect-text16 {
   color: var(--dl-color-gray-700);
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .discordnnect-image4 {
   flex: 1;
