@@ -7,6 +7,8 @@
   font-style: normal;
   font-weight: 700;
 }
+
+
 @media(max-width: 767px) {
   .separator-separator {
     text-align: center;
@@ -48,6 +50,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.footer-text1 {
+  color: #ff0101;
+}
 .footer-status {
   align-self: center;
   text-decoration: none;
@@ -78,12 +83,39 @@
 }
 
 
+
+
 @media(max-width: 767px) {
   .footer-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .footer-made {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text2 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
   .footer-copyright {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-rights {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -102,7 +134,37 @@
   .footer-profil {
     margin-bottom: var(--dl-space-space-unit);
   }
+  .footer-made {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .footer-copyright {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-rights {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
