@@ -23,7 +23,7 @@
         letter-spacing: normal;
         line-height: 1.15;
         color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        background: var(--dl-color-gray-white);
 
         null
       }
@@ -54,8 +54,8 @@
     <link rel="stylesheet" href="../style.css" />
     <div>
       <link href="./footer.css" rel="stylesheet" />
-      <footer class="footer-footer">
-        <a href="index.html" class="footer-navlink">
+      <footer class="footer-footer footer">
+        <a href="index.html" class="footer-navlink1">
           <img
             alt="logo"
             src="public/myprofil-1500h.jpg"
@@ -64,22 +64,31 @@
         </a>
         <div class="footer-container">
           <span class="footer-made">
-            <span class="footer-text">Made with</span>
-            <span class="footer-text1">❤</span>
-            <span class="footer-text2">by Fontom's</span>
+            <span class="footer-text1">Made with</span>
+            <span class="footer-text2">❤</span>
+            <span class="footer-text3">by Fontom's</span>
             <br />
           </span>
-          <div class="separator-container3">
-            <span class="separator-separator">&nbsp;-&nbsp;</span>
-          </div>
+          <separator-wrapper class="separator-wrapper">
+            <!--Separator component-->
+            <div class="separator-container separator">
+              <span class="separator-separator">&nbsp;-&nbsp;</span>
+            </div>
+          </separator-wrapper>
           <span class="footer-copyright">Copyright © 2024</span>
-          <div class="separator-container3">
-            <span class="separator-separator">&nbsp;-&nbsp;</span>
-          </div>
+          <separator-wrapper-sltz class="separator-wrapper-sltz">
+            <!--Separator component-->
+            <div class="separator-container1 separator">
+              <span class="separator-separator1">&nbsp;-&nbsp;</span>
+            </div>
+          </separator-wrapper-sltz>
           <span class="footer-rights">All Rights Reserved</span>
-          <div class="separator-container3">
-            <span class="separator-separator">&nbsp;-&nbsp;</span>
-          </div>
+          <separator-wrapper-wejk class="separator-wrapper-wejk">
+            <!--Separator component-->
+            <div class="separator-container2 separator">
+              <span class="separator-separator2">&nbsp;-&nbsp;</span>
+            </div>
+          </separator-wrapper-wejk>
           <a
             href="https://fontom71.github.io/cybercompanion-statuspage"
             target="_blank"
@@ -90,7 +99,7 @@
           </a>
         </div>
         <div class="footer-raccourci-menu">
-          <a href="index.html" class="footer-navlink1">
+          <a href="index.html" class="footer-navlink2">
             <img
               alt="image"
               src="public/footer/icon-home-200h.png"
