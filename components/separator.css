@@ -8,15 +8,14 @@
   font-weight: 700;
 }
 
-
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .separator-separator {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .separator-separator {
     width: 100%;
     margin-left: 0px;
