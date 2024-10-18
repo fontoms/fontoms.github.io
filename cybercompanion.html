@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CyberCompanion est un bot Discord communautaire qui dynamise votre serveur pour des animations et soirées jeux inoubliables."
+    />
+    <meta
+      property="og:title"
+      content="CyberCompanion - Bot Discord Communautaire"
+    />
+    <meta
+      property="og:description"
+      content="CyberCompanion est un bot Discord communautaire qui dynamise votre serveur pour des animations
+        et soirées jeux inoubliables."
+    />
+    <meta
+      property="og:image"
+      content="/public/cybercompanion/banner_cybercompanion.jpg"
+    />
+    <link rel="icon" href="/public/cybercompanion/logo_cybercompanion.png" />
+    <title>CyberCompanion - Bot Discord Communautaire</title>
+    <style>
+      :root {
+        --primary-color: #00ffff;
+        --secondary-color: rgba(255, 255, 255, 0.1);
+        --background-color: #000000;
+        --text-color: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: var(--background-color);
+        background-image: url("/public/cybercompanion/banner_cybercompanion.jpg");
+        color: var(--text-color);
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+
+      header {
+        padding: 1rem 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        width: 50px;
+        height: 50px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: var(--text-color);
+        margin-left: 20px;
+        font-weight: bold;
+      }
+
+      main {
+        padding: 2rem 5%;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+
+      .subtitle {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        color: var(--primary-color);
+      }
+
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .feature-card {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 2rem;
+        width: 300px;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-10px);
+      }
+
+      .feature-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: var(--primary-color);
+      }
+
+      .cta-button {
+        display: inline-block;
+        background-color: var(--primary-color);
+        color: var(--background-color);
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 2rem;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+      }
+
+      .background-animation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          45deg,
+          var(--primary-color),
+          var(--secondary-color)
+        );
+        opacity: 0.1;
+        z-index: -1;
+        animation: backgroundAnimation 10s ease infinite;
+      }
+
+      @keyframes backgroundAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background-animation"></div>
+
+    <header>
+      <img
+        src="/public/cybercompanion/logo_cybercompanion.png"
+        alt="CyberCompanion Logo"
+        class="logo"
+      />
+      <nav>
+        <a href="/">Accueil</a>
+        <a href="/cybercompanion.html">Cybercompanion</a>
+        <a href="/terms.html">Conditions</a>
+        <a href="/privacy.html">Confidentialité</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>CyberCompanion</h1>
+      <p class="subtitle">Bot Discord Communautaire</p>
+
+      <a
+        href="https://discord.com/api/oauth2/authorize?client_id=822815101979328562&amp;permissions=8&amp;scope=bot%20applications.commands"
+        class="cta-button"
+        >Ajouter à Discord</a
+      >
+
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>Communauté</h3>
+          <p>
+            Dynamise votre serveur pour des animations et soirées jeux
+            inoubliables.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Sécurité</h3>
+          <p>Protection avancée avec anti-raid, anti-spam et anti-lien.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎵</div>
+          <h3>Musique</h3>
+          <p>Écoutez vos musiques préférées sans interruption.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔧</div>
+          <h3>24/7</h3>
+          <p>Disponible en permanence pour répondre à vos besoins.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
