@@ -34,6 +34,10 @@
         font-family: "Arial", sans-serif;
         background-color: var(--background-color);
         background-image: url("/public/home/banner_profile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
         color: var(--text-color);
         line-height: 1.6;
         overflow-x: hidden;
@@ -171,6 +175,41 @@
       .skill-badge.highlight {
         animation: pulse 1s infinite;
       }
+
+      footer {
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 2rem 5%;
+        margin-top: 3rem;
+        text-align: center;
+      }
+
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .social-links a {
+        color: var(--text-color);
+        font-size: 1.5rem;
+        margin: 0 10px;
+        transition: color 0.3s ease;
+      }
+
+      .social-links a:hover {
+        color: var(--primary-color);
+      }
+
+      .contact-info {
+        margin-top: 1rem;
+      }
+
+      .copyright {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        opacity: 0.7;
+      }
     </style>
   </head>
   <body>
@@ -244,6 +283,22 @@
       </div>
     </main>
 
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://github.com/fontoms" title="GitHub">📂</a>
+        </div>
+        <div class="contact-info">
+          <p>📧 contact@fontoms.com</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; <span id="current-year"></span> Fontom's. Tous droits réservés.
+        </p>
+      </div>
+    </footer>
+
     <script>
       document.querySelectorAll(".skill-badge").forEach((badge) => {
         badge.addEventListener("mouseover", () => {
@@ -253,6 +308,9 @@
           badge.classList.remove("highlight");
         });
       });
+
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
     </script>
   </body>
 </html>
