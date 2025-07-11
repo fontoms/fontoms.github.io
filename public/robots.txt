@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fontoms.com/sitemap.xml
+
+# Optimisation pour les moteurs de recherche
+Crawl-delay: 1
+
+# Bloquer les fichiers sensibles
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
