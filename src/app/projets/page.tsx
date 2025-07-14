@@ -506,7 +506,7 @@ export default function Projets() {
                   </Button>
                 </motion.a>
                 <motion.a
-                  href="https://discord.gg/cybercompanion"
+                  href="https://cybercompanion.fr/discord"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05, y: -2 }}
